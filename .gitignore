@@ -1,2 +1,5 @@
 .settings
 .project
+.git
+.buildpath
+.metadata/
