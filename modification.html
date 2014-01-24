@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <meta name="description" content="Angličtina pro děti">  
+    <meta charset="UTF-8">
+    <title>Úprava videa</title>
+    
+    <!-- Bootstrap -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    
+    <link href="ajkids.css" rel="stylesheet">    
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  
+  <body  class="list">
+
+      <div class="container font-margin-label"> 
+      
+          <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">   
+              <!-- Brand and toggle get grouped for better mobile display -->
+              <div class="navbar-header posunleft" id="hover1">       
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>           
+                </button>
+                <a class="navbar-brand" href="listthemes.html">Téma</a>         
+              </div>
+            
+              <!-- Collect the nav links, forms, and other content for toggling -->
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav" id="hover2">
+                  <li><a href="listvideos.html">Videa</a></li>
+                  <li><a href="listwords.html">Slovíčka</a></li>
+                  <li><a href="#">Úprava téma</a></li>
+                  <li><a id="active" href="#">Úprava videa</a></li>
+                  <li><a href="#">Úprava slovíčka</a></li>          
+                </ul>
+                <span  class="posunleft20" id="hovericon">             
+                    <a href="ajkids.html" class="btn btn-default" id="icon"  target="_blank" role="button"><span class="glyphicon glyphicon-home"></span></a>
+                </span>                   
+              </div><!-- /.navbar-collapse -->
+          </nav>
+
+          <div class="row posuntop90">
+            <form role="form">
+
+              <div class="form-group col-md-4">
+                <label for="namevideo">Jméno videa : </label>
+                <input type="text" name="name-video" class="form-control font-size16" id="namevideo" placeholder="Jedno-slovo">
+              </div>
+
+              <div class="form-group col-md-6">
+                <br/><br/>
+              </div>
+              
+              <div class="form-group col-md-2" id="active1">
+                <br/>
+                <button type="button" name="delete" class="btn btn-danger delete-button" id="hover3" >Smazat video</button>               
+              </div>
+
+              <div class="form-group col-md-12 " >
+                <label for="urlvideo" >URL videa : </label>
+                <input type="text" name="url-video" class="form-control font-size16" id="urlvideo" placeholder="Vložit celý <iframe .....> &lt;/iframe&gt; jako na příkladu níže">
+                <span class="help-block black"> &nbsp;Příklad: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;iframe width="560" height="315" src="http://www.youtube-nocookie.com/embed/rnV4EEKXw-g?rel=0" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;</span>
+              </div>
+
+              <div class="col-md-4 " >
+                <label for="label1"> Vyber téma : </label>
+                <div  class="checks-border" id="label1">
+                  <div class="checks-label" >
+                    <label class="checks-label"> 
+                      <input name="vyber-tema"  type="checkbox" class="font-size16" >
+                      &nbsp;&nbsp;Téma x 
+                    </label>
+                  </div >
+                  <div >
+                    <label class="checks-label"> 
+                      <input name="vyber-tema2"  type="checkbox" >
+                      &nbsp;&nbsp;Téma x 
+                    </label>
+                  </div>
+                  <div >
+                    <label class="checks-label"> 
+                      <input name="vyber-tema" type="checkbox" >
+                      &nbsp;&nbsp;Téma x 
+                    </label>
+                  </div>
+                  <div >
+                    <label class="checks-label"> 
+                      <input name="vyber-tema" type="checkbox" >
+                      &nbsp;&nbsp;Téma x 
+                    </label>
+                  </div>
+                  <div >
+                    <label class="checks-label"> 
+                      <input name="vyber-tema" type="checkbox" >
+                      &nbsp;&nbsp;Téma x 
+                    </label>
+                  </div>
+                  <div class="checks-label" >
+                    <label class="checks-label"> 
+                      <input name="vyber-tema"  type="checkbox" class="font-size16" >
+                      &nbsp;&nbsp;Téma x 
+                    </label>
+                  </div >
+                  <div class="checks-label" >
+                    <label class="checks-label"> 
+                      <input name="vyber-tema"  type="checkbox" class="font-size16" >
+                      &nbsp;&nbsp;Téma x 
+                    </label>
+                  </div >
+                  <div class="checks-label" >
+                    <label class="checks-label"> 
+                      <input name="vyber-tema"  type="checkbox" class="font-size16" >
+                      &nbsp;&nbsp;Téma x 
+                    </label>
+                  </div >
+                  <div class="checks-label" >
+                    <label class="checks-label"> 
+                      <input name="vyber-tema"  type="checkbox" class="font-size16" >
+                      &nbsp;&nbsp;Téma x 
+                    </label>
+                  </div >
+                  <div class="checks-label" >
+                    <label class="checks-label"> 
+                      <input name="vyber-tema"  type="checkbox" class="font-size16" >
+                      &nbsp;&nbsp;Téma x 
+                    </label>
+                  </div >
+                  <div class="checks-label" >
+                    <label class="checks-label"> 
+                      <input name="vyber-tema"  type="checkbox" class="font-size16" >
+                      &nbsp;&nbsp;Téma x 
+                    </label>
+                  </div >
+                  <div class="checks-label" >
+                    <label class="checks-label"> 
+                      <input name="vyber-tema"  type="checkbox" class="font-size16" >
+                      &nbsp;&nbsp;Téma x 
+                    </label>
+                  </div >
+                  <div class="checks-label" >
+                    <label class="checks-label"> 
+                      <input name="vyber-tema"  type="checkbox" class="font-size16" >
+                      &nbsp;&nbsp;Téma x 
+                    </label>
+                  </div >
+                  <div class="checks-label" >
+                    <label class="checks-label"> 
+                      <input name="vyber-tema"  type="checkbox" class="font-size16" >
+                      &nbsp;&nbsp;Téma x 
+                    </label>
+                  </div >
+                  <div class="checks-label" >
+                    <label class="checks-label"> 
+                      <input name="vyber-tema"  type="checkbox" class="font-size16" >
+                      &nbsp;&nbsp;Téma x 
+                    </label>
+                  </div >
+                  <div class="checks-label" >
+                    <label class="checks-label"> 
+                      <input name="vyber-tema"  type="checkbox" class="font-size16" >
+                      &nbsp;&nbsp;Téma x 
+                    </label>
+                  </div >
+                  <div class="checks-label" >
+                    <label class="checks-label"> 
+                      <input name="vyber-tema"  type="checkbox" class="font-size16" >
+                      &nbsp;&nbsp;Téma x 
+                    </label>
+                  </div >
+                  <div class="checks-label" >
+                    <label class="checks-label"> 
+                      <input name="vyber-tema"  type="checkbox" class="font-size16" >
+                      &nbsp;&nbsp;Téma x 
+                    </label>
+                  </div >
+                  <div class="checks-label" >
+                    <label class="checks-label"> 
+                      <input name="vyber-tema"  type="checkbox" class="font-size16" >
+                      &nbsp;&nbsp;Téma x 
+                    </label>
+                  </div >
+                </div>            <!-- end of class="checks-border"  -->
+              </div>                
+           
+
+              <div class="col-md-4 " >
+                <label for="label1"> Vyber slovíčka : </label>
+                <div  class="checks-border2" id="label1">
+                  <div class="checks-label" >
+                    <label class="checks-label"> 
+                      <input name="vyber-tema"  type="checkbox" class="font-size16" >
+                      &nbsp;&nbsp;Slovíčko x 
+                    </label>
+                  </div >
+                  <div >
+                    <label class="checks-label"> 
+                      <input name="vyber-tema2"  type="checkbox" >
+                      &nbsp;&nbsp;Slovíčko x 
+                    </label>
+                  </div>
+                  <div >
+                    <label class="checks-label"> 
+                      <input name="vyber-tema" type="checkbox" >
+                      &nbsp;&nbsp;Slovíčko x 
+                    </label>
+                  </div>
+                  <div >
+                    <label class="checks-label"> 
+                      <input name="vyber-tema" type="checkbox" >
+                      &nbsp;&nbsp;Slovíčko x 
+                    </label>
+                  </div>
+                  <div >
+                    <label class="checks-label"> 
+                      <input name="vyber-tema" type="checkbox" >
+                      &nbsp;&nbsp;Slovíčko x 
+                    </label>
+                  </div>
+                  <div class="checks-label" >
+                    <label class="checks-label"> 
+                      <input name="vyber-tema"  type="checkbox" class="font-size16" >
+                      &nbsp;&nbsp;Slovíčko x 
+                    </label>
+                  </div >
+                  <div class="checks-label" >
+                    <label class="checks-label"> 
+                      <input name="vyber-tema"  type="checkbox" class="font-size16" >
+                      &nbsp;&nbsp;Slovíčko x 
+                    </label>
+                  </div >
+                  <div class="checks-label" >
+                    <label class="checks-label"> 
+                      <input name="vyber-tema"  type="checkbox" class="font-size16" >
+                      &nbsp;&nbsp;Slovíčko x 
+                    </label>
+                  </div >
+                  <div class="checks-label" >
+                    <label class="checks-label"> 
+                      <input name="vyber-tema"  type="checkbox" class="font-size16" >
+                      &nbsp;&nbsp;Slovíčko x 
+                    </label>
+                  </div >
+                  <div class="checks-label" >
+                    <label class="checks-label"> 
+                      <input name="vyber-tema"  type="checkbox" class="font-size16" >
+                      &nbsp;&nbsp;Slovíčko x 
+                    </label>
+                  </div >
+                </div>         <!-- end of class="checks-border"  -->
+              </div>
+                
+              
+              <div class="form-group col-md-2">
+                <br/><br/>
+              </div>  
+  
+  
+              <div class="col-md-6">.col-md-6</div>
+
+              <div class="col-md-6">  
+                <button type="submit" class="btn btn-default">Odeslat</button>
+              </div>
+              
+            </form>        
+          </div>        <!-- end of row -->
+
+      </div>          <!-- end of container -->            
+      
+      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+      <script src="https://code.jquery.com/jquery.js"></script>
+      <!-- Include all compiled plugins (below), or include individual files as needed -->
+      <script src="js/bootstrap.min.js"></script>
+
+  </body>
+  
+</html>
