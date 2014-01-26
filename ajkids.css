@@ -156,7 +156,7 @@ table a:hover {
 	border-color: rgb(150, 150, 150);
 }
 
-#hover3 button:hover {
+.hover3 button:hover {
 	border-color: black;
 	background-color: rgb(230, 0, 0);
 }
@@ -164,3 +164,15 @@ table a:hover {
 #active1 button:active {
 	border-color: black;
 }
+
+.button-odeslat {
+	font-weight: bold;
+	background-color: rgb(230, 230, 230);
+	border: 1px solid rgb(150, 150, 150);
+}
+
+.hover4 button:hover {
+	border-color: black;
+	background-color: white;
+}
+
