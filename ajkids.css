@@ -59,35 +59,50 @@
 	background-color : red;			
 }
 
+.align-center {
+	text-align: center;
+}
+
 .list .navbar-inverse .navbar-brand{
 	color: white;
-	background-color : rgb(200,200,200);			
+	background-color : rgb(12, 144, 233);			
 	border-width: 0px 1px;
 	border-style: solid;
-	border-color: rgb(164,164,164);
+	border-color: rgb(211, 211, 211);
+	padding: 12px;
+	font-size: 16px;
 }
 
 #hover1 a:hover {
-	border-color: rgb(164,164,164);
-	border-width: 2px;
-	padding: 13px 14px;
+	border-color: rgb(211, 211, 211);
+	border-width: 2px 2px 2px 3px;
+	padding: 10px 11px 10px 10px;
 }
-
 
 #hover2 a:hover {
-	border-color: rgb(164,164,164);
+	border-color: rgb(211, 211, 211);
 	border-width: 2px;
-	padding: 13px 14px;
+	padding: 10px 11px;
 }
 
-#active {
+.list .navbar-inverse .navbar-nav > li > a.active {
 	background-color: black;
-	border: 1px solid rgb(255, 0, 0);
-	padding: 14px 15px;	
+	border: 0px 1px solid rgb(255, 0, 0);
+	padding: 12px 12px;	
+}
+
+.list .navbar-inverse > div > a.active {
+	background-color: black;
+	border: 0px 1px solid rgb(255, 0, 0);
+	padding: 12px 12px;	
 }
 
 table a:hover {
 	cursor: pointer;
+}
+
+table th {
+	white-space: nowrap;
 }
 
 #icon {
@@ -100,33 +115,23 @@ table a:hover {
 }
 
 .list .navbar-inverse .navbar-nav > li > a {
-	background-color : rgb(200,200,200);
+	background-color : rgb(12,144,233);
+	padding: 12px;
 	font-weight: bold;
 	color: white;
-	font-size: large;
+	font-size: 16px;
 	border-width: 0px 1px;
 	border-style: solid;
-	border-color: rgb(164,164,164);		
+	border-color: rgb(211,211,211);		
 }
 
 .checks-border {
 	border: 1px solid rgb(230, 230, 230);
 	border-radius: 4px;
-	max-height: 600px;
+	min-height: 200px;	
 	padding: 15px 20px;
 	background-color: white;
 	display: block;
-	overflow: auto;
-}
-
-.checks-border2 {
-	border: 1px solid rgb(230, 230, 230);
-	border-radius: 4px;
-	height: 600px;
-	padding: 15px 20px;
-	background-color: white;
-	display: block;
-	overflow: auto;
 }
 
 .checks-label {
@@ -149,6 +154,16 @@ table a:hover {
 	font-size: 16px;
 }
 
+.image-theme {
+	width: 200px;
+	height: 114px;	
+}
+
+.image-word {
+	width: 120px;
+	height: 90px;	
+}
+
 .delete-button {
 	background-color: rgb(185, 0, 0);
 	font-weight: bold;
@@ -167,12 +182,28 @@ table a:hover {
 
 .button-odeslat {
 	font-weight: bold;
-	background-color: rgb(230, 230, 230);
+	background-color: rgb(3, 141, 25);
 	border: 1px solid rgb(150, 150, 150);
+	color: white;
 }
 
 .hover4 button:hover {
 	border-color: black;
-	background-color: white;
+	background-color: rgb(4, 177, 32);
+	color: white;
 }
+
+.view1 {
+	width: 202px;
+	height: 114px;
+	padding: 0px;
+}
+
+.view2 {
+	width: 122px;
+	height: 92px;
+	padding: 0px;
+}
+
+
 
